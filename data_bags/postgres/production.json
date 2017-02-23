@@ -1,0 +1,9 @@
+{
+  "id": "production",
+  "credentials": {
+    "encrypted_data": "jEzdLLK4R+x7vt5uCodZFJA4KKJMZmo/YxAbLGRwW9sF70yGM4fTUvjBV2eu\nXaqEM27+ZK52aWwnYvyGNsdx3LBytaJK/ajYU10NRAYgyh0aoav8vQPatUiX\nrBmaXz6f856Nmn9J22vTSXV1+T38tDEbO4B2jw42ZsgG7zf9JVQ=\n",
+    "iv": "s0GRKj8ApXCntPraeSmaeQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
