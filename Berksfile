@@ -1,8 +1,7 @@
 source 'https://api.berkshelf.com'
 
 cookbook 'ntp', '~> 1.9.1'
-cookbook 'python', '~> 1.4.6'
-cookbook 'resolver', '~> 1.3.0'
+cookbook 'poise-python', '~> 1.5.1'
 
 cookbook 'dotfiles',
 		 git: 'https://github.com/aspyatkin/dotfiles-cookbook',
@@ -22,13 +21,17 @@ cookbook 'latest-redis',
 
 cookbook 'modern_nginx',
 		 git: 'https://github.com/aspyatkin/modern_nginx',
-		 tag: 'v1.3.0'
+		 tag: 'v2.1.0'
 
 cookbook 'git2',
 		 git: 'https://github.com/aspyatkin/git2-cookbook',
 		 tag: 'v1.0.0'
 
+cookbook 'dhparam',
+		 git: 'https://github.com/aspyatkin/dhparam-cookbook',
+		 tag: 'v1.0.0'
+
 cookbook 'themis-quals',
-		 # path: '../themis-quals-cookbook'
+		 # path: '../../themis-project/themis-quals-cookbook'
 		 git: 'https://github.com/themis-project/themis-quals-cookbook',
-		 tag: 'v1.2.1'
+		 tag: 'v1.3.0'
