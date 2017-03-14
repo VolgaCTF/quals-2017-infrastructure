@@ -34,4 +34,4 @@ cookbook 'dhparam',
 cookbook 'themis-quals',
 		 # path: '../../themis-project/themis-quals-cookbook'
 		 git: 'https://github.com/themis-project/themis-quals-cookbook',
-		 tag: 'v1.3.0'
+		 tag: 'v1.4.0'
