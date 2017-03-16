@@ -31,8 +31,8 @@ DEPENDENCIES
   poise-python (~> 1.5.1)
   themis-quals
     git: https://github.com/themis-project/themis-quals-cookbook
-    revision: 9a0f0588f638e94456e570e97bbbc95dc5e8c677
-    tag: v1.4.0
+    revision: 7443d36e7c5b0c562722e44e209b93bc2a309d2a
+    tag: v1.5.0
 
 GRAPH
   apt (6.0.1)
@@ -44,7 +44,7 @@ GRAPH
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
   chef-sugar (3.4.0)
-  chef_nginx (5.1.1)
+  chef_nginx (5.1.2)
     build-essential (>= 0.0.0)
     compat_resource (>= 12.16.3)
     ohai (>= 4.1.0)
@@ -122,7 +122,7 @@ GRAPH
   ssh_known_hosts (5.0.0)
   supervisor (0.4.12)
     python (>= 0.0.0)
-  themis-quals (1.4.0)
+  themis-quals (1.5.0)
     database (~> 4.0.9)
     git2 (~> 1.0.0)
     graphicsmagick (~> 0.1.0)
@@ -140,7 +140,7 @@ GRAPH
   tls (2.0.0)
   ulimit (0.4.0)
   vim (2.0.2)
-  windows (2.1.1)
+  windows (3.0.0)
     ohai (>= 4.0.0)
   yarn (0.3.0)
   yum-epel (2.1.1)
