@@ -21,7 +21,7 @@ cookbook 'latest-redis',
 
 cookbook 'modern_nginx',
 		 git: 'https://github.com/aspyatkin/modern_nginx',
-		 tag: 'v2.1.0'
+		 tag: 'v2.1.1'
 
 cookbook 'git2',
 		 git: 'https://github.com/aspyatkin/git2-cookbook',
@@ -34,4 +34,4 @@ cookbook 'dhparam',
 cookbook 'themis-quals',
 		 # path: '../../themis-project/themis-quals-cookbook'
 		 git: 'https://github.com/themis-project/themis-quals-cookbook',
-		 tag: 'v1.5.0'
+		 tag: 'v1.6.2'

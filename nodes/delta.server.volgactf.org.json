@@ -21,6 +21,9 @@
       "pontus"
     ]
   },
+  "modern_nginx": {
+    "with_status": true
+  },
   "themis-quals": {
     "user": "pontus",
     "customizers": {
@@ -41,6 +44,10 @@
         "transport": "sendgrid",
         "sender_name": "VolgaCTF 2017 Quals",
         "sender_address": "info@quals.2017.volgactf.ru"
+      },
+      "notifications": {
+        "twitter": true,
+        "telegram": true
       }
     }
   }

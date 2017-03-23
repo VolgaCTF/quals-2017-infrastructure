@@ -1,6 +1,7 @@
 require 'dotenv'
 Dotenv.load
 
+local_mode true
 cookbook_path ['cookbooks', 'site-cookbooks']
 node_path 'nodes'
 role_path 'roles'

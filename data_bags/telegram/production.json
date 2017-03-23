@@ -1,0 +1,15 @@
+{
+  "id": "production",
+  "bot_access_token": {
+    "encrypted_data": "sm6gUHheXXnDx14Nmq5viEmh1HGGdzuC+Vvij21+RSK4tXK3fS/E2ATA5B5P\nkuaAHG6IdeeDLDrTzSW5ScCyLpHq8zl+T8Z6BO2z9oNyyB4=\n",
+    "iv": "dP2eGHYDY4rUVvJ4DYHOSA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "chat_id": {
+    "encrypted_data": "CcDLRof3bb7h8qbRHWBig/RGRW9Cd2wob4bgFzasPI+8oIexHmrWmjiaUGMV\n9dAC\n",
+    "iv": "G2WQMkcBs9O/0Q/8Tx4lJw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

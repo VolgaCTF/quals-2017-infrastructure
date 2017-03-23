@@ -25,14 +25,14 @@ DEPENDENCIES
     tag: v1.1.4
   modern_nginx
     git: https://github.com/aspyatkin/modern_nginx
-    revision: 60e21639901e9c48c25a97e87f3541396a9f55dc
-    tag: v2.1.0
+    revision: 58e9a1d0c79c0f8f9ebf0ac811f09150b269fd4c
+    tag: v2.1.1
   ntp (~> 1.9.1)
   poise-python (~> 1.5.1)
   themis-quals
     git: https://github.com/themis-project/themis-quals-cookbook
-    revision: 7443d36e7c5b0c562722e44e209b93bc2a309d2a
-    tag: v1.5.0
+    revision: b976d0e8a04598ca1a70a13fda0cfedb4b3ac9b0
+    tag: v1.6.2
 
 GRAPH
   apt (6.0.1)
@@ -66,6 +66,8 @@ GRAPH
   git2 (1.0.0)
   graphicsmagick (0.1.0)
   homebrew (3.0.0)
+  htpasswd (0.2.4)
+    python (>= 0.0.0)
   latest-git (1.1.12)
     apt (>= 0.0.0)
     git (~> 5.0.1)
@@ -77,11 +79,13 @@ GRAPH
     compat_resource (>= 0.0.0)
   mingw (2.0.0)
     seven_zip (>= 0.0.0)
-  modern_nginx (2.1.0)
-    chef_nginx (~> 5.1.0)
+  modern_nginx (2.1.1)
+    chef_nginx (~> 5.1.2)
     dhparam (~> 1.0.0)
   multipackage (3.0.30)
     compat_resource (>= 0.0.0)
+  netdata (0.1.9)
+    yum-epel (>= 0.0.0)
   nodejs (2.4.4)
     apt (>= 0.0.0)
     ark (>= 0.0.0)
@@ -122,14 +126,16 @@ GRAPH
   ssh_known_hosts (5.0.0)
   supervisor (0.4.12)
     python (>= 0.0.0)
-  themis-quals (1.5.0)
+  themis-quals (1.6.2)
     database (~> 4.0.9)
     git2 (~> 1.0.0)
     graphicsmagick (~> 0.1.0)
+    htpasswd (~> 0.2.4)
     latest-nodejs (~> 1.2.8)
     latest-redis (~> 1.1.4)
     logrotate (~> 2.1.0)
-    modern_nginx (~> 2.1.0)
+    modern_nginx (~> 2.1.1)
+    netdata (~> 0.1.9)
     poise-python (~> 1.5.1)
     postgresql (~> 4.0.6)
     ssh-private-keys (~> 2.0.0)
@@ -140,7 +146,7 @@ GRAPH
   tls (2.0.0)
   ulimit (0.4.0)
   vim (2.0.2)
-  windows (3.0.0)
+  windows (3.0.2)
     ohai (>= 4.0.0)
   yarn (0.3.0)
   yum-epel (2.1.1)
